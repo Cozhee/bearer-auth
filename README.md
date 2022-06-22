@@ -30,9 +30,11 @@ N/A
 - POST : `/signup`
 - POST : `/signin`
 
-- Feature Three: Added route
+- Feature Two: Added route
 - GET: `/users`
 - GET: `/secret`
+
+Each route will be using middleware to check if the user has basicAuth or bearerAuth included in these requests. These are protected routes which are unreachabled by un authenticated users.
 
 
 #### Tests
