@@ -5,7 +5,7 @@
 ### Author: Cody Davis
 
 ### Problem Domain
-Setting up a basic express server to configure heroku deployment and to create tests for basic routes. Implemented with sequelize. Set up encryption and the use of jsonwebtokens. We want there to be routes that are unreachable by users if they are not authenticated. In order to acheive this goal we set up middleware to check a users credentials during the sign up and sign in process.
+Setting up a basic express server to configure heroku deployment and to create tests for basic routes. Implemented with sequelize. Set up encryption and the use of jsonwebtokens. 
 
 ### Links and Resources
 - [Github](https://github.com/Cozhee/bearer-auth/pulls)
@@ -34,7 +34,7 @@ N/A
 - GET: `/users`
 - GET: `/secret`
 
-Each route will be using middleware to check if the user has basicAuth or bearerAuth included in these requests. These are protected routes which are unreachabled by un authenticated users.
+Each route will be using middleware to check if a user has basicAuth or bearerAuth included in these requests. These are protected routes which are unreachabled by un authenticated users.
 
 
 #### Tests
